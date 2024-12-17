@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(212, 228, 242);
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+ul {
+    background-color: rgb(111, 172, 55);
+}
+
+li {
+    color: rgb(116, 29, 101);
+}
