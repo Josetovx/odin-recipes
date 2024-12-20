@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: rgb(212, 228, 242);
     font-family: verdana, sans-serif;
@@ -13,7 +23,7 @@ h1 {
 
 ul {
     background-color: rgba(119, 208, 35, 0.826);
-    width: 280px;
+    width: 350px;
     padding: 1em 5em;
     border: 1px solid rgb(12, 111, 12);
     border-radius: 5px;
@@ -31,4 +41,4 @@ li:hover {
     background-color: rgb(225, 188, 24);
     font-weight: 700;
     border-radius: 10px;
-} 
+}
