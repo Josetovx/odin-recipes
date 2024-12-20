@@ -8,12 +8,27 @@ h1 {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 ul {
-    background-color: rgb(111, 172, 55);
+    background-color: rgba(119, 208, 35, 0.826);
+    width: 280px;
+    padding: 1em 5em;
+    border: 1px solid rgb(12, 111, 12);
+    border-radius: 5px;
+    margin: auto;
 }
 
 li {
     color: rgb(116, 29, 101);
+    padding: 0.5em 0;
+    width: 200px;
+    margin: auto;
 }
+
+li:hover {
+    background-color: rgb(225, 188, 24);
+    font-weight: 700;
+    border-radius: 10px;
+} 
